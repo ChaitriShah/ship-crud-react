@@ -1,0 +1,51 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+h2 {
+  color: rgb(22, 0, 129);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 25px;
+}
+
+th {
+  background-color: rgb(117, 201, 250);
+}
+
+td {
+  background-color: rgb(205, 235, 253);
+}
+
+form * {
+  font-size: 18px;
+}
+
+.add-form {
+  width: 50%;
+}
+
+.add-form input[type='number']{
+  width: 255px;
+} 
+
+.add {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 80px;
+  background-color: rgb(205, 235, 253);
+}
